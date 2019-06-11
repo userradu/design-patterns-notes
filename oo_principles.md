@@ -1,4 +1,4 @@
-** The one constant in software development is change **
+**The one constant in software development is change**
 
 Identify the aspects of your application that vary and separate them from what stays the same.
 Take what varies and "encapsulate" it so it won't affect the rest of your code => fewer unintended consequences from code changes and more flexibility in your systems.
