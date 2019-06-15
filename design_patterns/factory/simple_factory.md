@@ -7,5 +7,6 @@ Used to encapsulate object creation.
 Create a new class that handles the details of object creation (Factory). 
 
 This method is useful for removing code duplication. 
+Provides one place to perform maintenance.
 
 

@@ -12,3 +12,16 @@ Strive for loosely coupled design between objects that interact.
 
 The Open/Closed Principle: classes should be open for extension, but closes for modification.
 What do we get if we acomplish this? Designs that are resilient to change and flexible enough to take on new functionality to meet changing requirements. 
+
+**Dependency inversion principle**
+Depend upon abstractions. Do not depend upon concrete classes. 
+High-level components should not depend on low-level components; rather, they should both depend on abstractions(interfaces). 
+A *high-level component* is a class with behavior defined in terms of other, *low-level components*.
+A system where each module specifically refers to its collaborators is a tight coupled system, *it lacks sufficient layers of abstractions*.
+**The goal** of the dependency inversion principle is to avoid a high coupled distribution with the mediation of an abstract layer, and to increase the reusability of higher components.
+
+**Why is tight-coupling bad?**
+Software changes all the time. You want to be able to modify a module without having to change all other modules which are dependent on this first module. 
+
+Practical example:
+If somebody wants their output in a CSV file rather than JSON etc., or if you want to switch from MySQL to PostGreSQL you should be able to make those changes extremely easily in your code, without having to rewrite the entire class etc. In other words, you do not want to tightly couple your application with a specific database implementation (e.g. Mysql) or to a particular output (e.g. CSV files). Because, as is inevitable in software, changes will come. When they do come, it's much easier if your parts of your code are loosely coupled. 
