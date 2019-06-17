@@ -34,3 +34,14 @@ If somebody wants their output in a CSV file rather than JSON etc., or if you wa
 - gives us a way to prevent "dependency rot". Dependency rot hapens when you have high-level components depending on low-level components depending on high-level components depending on sideways components depending on low-level components and so on. When rot sets in, no one can easely understand the way a system is designed. 
 - with the Hollywood principle, we allow low-level components to hook themselves into a system, but the high-level components determine when they are needed, and how. In other words, the high-level components give the low-level components a "don't call us, we'll call you" treatment. 
 - principle defined with the *Template Method Pattern*
+
+**The Single Responsability Principle**
+A class should have only one reason to change. 
+Every responsability of a class is an area of potential change. More than one responsability means more than one area of change. 
+This principle guides us to keep each class to a single responsability. 
+
+**Cohesion**
+- a measure of how closely a class or a module supports a single purpose or responsability. 
+- a module has *high cohesion* when it is designed around a set of related functions, and we say it has *low cohesion* when it is designed around a set of unrelated functions. 
+
+Classes that adhere to the Single Responsability Principle tend to have high cohesion and are more maintainable that classes that take on multiple responsabilities and have low cohesion
