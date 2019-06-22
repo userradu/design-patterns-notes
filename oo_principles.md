@@ -45,3 +45,5 @@ This principle guides us to keep each class to a single responsability.
 - a module has *high cohesion* when it is designed around a set of related functions, and we say it has *low cohesion* when it is designed around a set of unrelated functions. 
 
 Classes that adhere to the Single Responsability Principle tend to have high cohesion and are more maintainable that classes that take on multiple responsabilities and have low cohesion
+
+**You only want to apply patterns where and when the make sense. You never want to start out with the intention of using pattern just of the sake of it. Sometimes just good OO design principles can solve a problem well enough on its own.**
