@@ -25,7 +25,7 @@
 5. The view asks the model for state. The view gets the state it displays directly from the model. The view might also ask the model for state as a result of the controller requesting some change in the view.
 
 Notes
-In some designs the controller registers with the model and is notified of changes. This can be the case when something in the model directly affects the user interface controls. For example, certain states in the model may dictate that some iterfaces items be enabled or disabled. In this case, is the controller's job to ask the view to update its display accordingly. 
+In some designs the controller registers with the model and is notified of changes. This can be the case when something in the model directly affects the user interface controls. For example, certain states in the model may dictate that some interfaces items be enabled or disabled. In this case, is the controller's job to ask the view to update its display accordingly. 
 
 Why not have the code from the controller in the view directly? 
 You'll complicate your view code because it now has two responsibilities: manage the user interface and dealing with logic of how to control the model.

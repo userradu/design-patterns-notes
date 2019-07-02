@@ -47,3 +47,8 @@ This principle guides us to keep each class to a single responsability.
 Classes that adhere to the Single Responsability Principle tend to have high cohesion and are more maintainable that classes that take on multiple responsabilities and have low cohesion
 
 **You only want to apply patterns where and when the make sense. You never want to start out with the intention of using pattern just of the sake of it. Sometimes just good OO design principles can solve a problem well enough on its own.**
+
+**Keep it simple (KISS)**
+When you design, solve things in the simplest way possible. **Your goal should be simplicity, not "how can I apply a pattern to this problem"**.
+When you use design patterns, there can also be a downside. Design Patterns often introduce additional classes and objects, and so they can increase the complexity of your design.
+Patterns are tools not rules - they need to be tweaked and adapted to your problem 
